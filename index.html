@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendador de Filmes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="block-1">
+    <h1>Recomendador de Filmes</h1>
+    <label for="category">Escolha uma categoria:</label>
+    <select id="category">
+        <option value="ação">Ação</option>
+        <option value="comédia">Comédia</option>
+        <option value="drama">Drama</option>
+        <option value="terror">Terror</option>
+    </select>
+    <button onclick="recomendarFilme()">Recomendar Filme</button>
+    <h2 id="recomendacao"></h2>
+    
+
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
